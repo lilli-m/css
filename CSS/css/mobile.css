@@ -1,0 +1,46 @@
+@media only screen and (max-width: 768px) {
+
+    #wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 2000px 800px 50px;
+        gap: 10px;
+        margin: auto;
+    }
+
+    header {
+        left: 0;
+    }
+
+    h1 {
+        color: white;
+        margin-top: 5px;
+    }
+
+    .link-icon {
+        position: fixed;
+        top: 5px;
+        right: 20px;
+    }
+
+    .bilder {
+        display: inline-block;
+    }
+
+    aside {
+        background-color: lightgray;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        display: flex;
+    }
+
+    footer {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
